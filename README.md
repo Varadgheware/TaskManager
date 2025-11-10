@@ -147,20 +147,8 @@ npm run test:watch
 - CORS is configured for cross-origin requests
 
 ## 🐛 Troubleshooting
-
-### Database issues
-- Delete `database/app.db` and run `npm run seed` again
-- Check that the database directory exists and is writable
-
-### Port conflicts
-- Backend runs on port 3000 (configurable via `PORT` env variable)
-- Frontend runs on port 5174 (configurable in `vite.config.js`)
-
 ### Login issues
 - Make sure you've run `npm run seed` to create test users
 - Check that the backend server is running
 - Verify JWT_SECRET is set in `.env` (or uses default)
 
-## 📄 License
-
-This project is part of an assignment and is for educational purposes.
