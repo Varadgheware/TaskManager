@@ -8,8 +8,15 @@ A full-stack web application for task management with role-based access control,
 
 - Node.js v18.19.0
 - npm v10.2.4
+  
+###How to Run
+
+cd TaskManager > cd Assignment
+Inside the Assignment install npm -> npm i
+Then run -> npm start
 
 ### Setup
+
 
 1. **Install dependencies:**
    ```bash
