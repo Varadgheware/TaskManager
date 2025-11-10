@@ -1,0 +1,27 @@
+node_modules/
+dist/
+coverage/
+.vite/
+.DS_Store
+*.log
+data/*.db
+data/*.sqlite
+
+# Node
+node_modules/
+dist/
+build/
+.env
+.env.*
+.DS_Store
+
+# DB
+database/*.db
+database/app.db
+
+# IDEs
+.vscode/
+.idea/
+
+# logs
+*.log
